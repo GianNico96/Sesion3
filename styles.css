@@ -7,9 +7,8 @@ body{
     background-color: beige;
     margin-bottom: 20px;
 }
-
-.video{
-    width: 500px;
+.container-promo{
+    display: flex;
 }
 
 .publicidad > h3 {
@@ -50,3 +49,17 @@ input{
     outline: none;
 }
 
+.container-video{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.video{
+    width: 500px;
+}
